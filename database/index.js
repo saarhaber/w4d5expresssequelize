@@ -1,1 +1,6 @@
-//this is where we will export the database
+const db = require('./db');
+
+/* TODO: require in all models and associations; */
+require("./models");
+
+module.exports = db; 
