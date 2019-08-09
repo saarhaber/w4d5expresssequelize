@@ -4,3 +4,5 @@ const campusesRouter = require ('./campuses')
 const studentssRouter = require ('./students')
 
 router.use('/campuses', campusesRouter);
+router.use('/students', studentsRouter);
+module.exports = router;
