@@ -1,0 +1,1 @@
+//this where the api routes to campuses will be
